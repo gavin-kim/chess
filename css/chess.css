@@ -1,0 +1,41 @@
+game-chess {
+    padding-top: 120px;
+}
+
+.AbleToMove
+{
+    background-image: url("img/ableToMove.png");
+    opacity: 0.5;
+}
+.AbleToAttack
+{
+    background-image: url("img/ableToAttack.png");
+    opacity: 0.5;
+}
+.Disable
+{
+    background-color: lightslategray;
+    opacity: 0.7;
+}
+#restart
+{
+    background-color: #555555;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer
+}
+#restart:hover
+{
+    background-color: #333333;
+}
+#info
+{
+    font-family: monospace;
+    font-size: 20px;
+}
